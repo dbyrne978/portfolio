@@ -25,6 +25,7 @@ header{
 
 .header-links a{
     padding-left: 35px;
+    color: inherit;
 }
 
 .hero{
