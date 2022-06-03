@@ -56,7 +56,7 @@ header {
     margin-bottom: 10px;
 }
 
-.resume-button {
+button {
     width: 100px;
     height: 25px;
     background-color: #3882F6;
@@ -166,7 +166,7 @@ header {
     margin-bottom: 0%;
 }
 
-.call-box .resume-button {
+.call-box .email-button {
     border: 2px solid white;
     align-self: center;
 }
