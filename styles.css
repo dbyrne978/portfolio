@@ -1,10 +1,10 @@
-body{
+body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     display: flex;
     background-color: #1F2937;
     color: white;
@@ -13,22 +13,22 @@ header{
     padding-top: 10px;
 }
 
-.my-name{
+.my-name {
     flex: 1;
 }
 
-.header-links{
+.header-links {
     flex: 2;
     display: flex;
     justify-content: flex-end;
 }
 
-.header-links a{
+.header-links a {
     padding-left: 35px;
     color: inherit;
 }
 
-.hero{
+.hero {
     display: flex;
     background-color: #1F2937;
     color: white;
@@ -38,25 +38,25 @@ header{
     padding-bottom: 100px;
 }
 
-.hero-text{
+.hero-text {
     flex: 1;
     display: flex;
     flex-flow: column;
 }
 
-.hero-title{
+.hero-title {
     flex: 1;
     font-size: 48px;
     font-weight: 800;
 }
 
-.hero-subtext{
+.hero-subtext {
     flex: 1;
     font-size: 14px;
     margin-bottom: 10px;
 }
 
-.sign-up-button{
+.resume-button {
     width: 100px;
     height: 25px;
     background-color: #3882F6;
@@ -66,18 +66,18 @@ header{
     font-family:'Courier New', Courier, monospace;
 }
 
-.hero-image{
+.hero-image {
     flex: 1;
 }
 
-.information{
+.information {
     background-color: white;
     color: #1F2937;
     margin-left: 200px;
     margin-right: 200px;
 }
 
-.information-text{
+.information-text {
     text-align: center;
     font-size: 24px;
     font-weight: 800;
@@ -85,18 +85,18 @@ header{
     margin-bottom: 40px;
 }
 
-.information-sections{
+.information-sections {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.information-section{
+.information-section {
     display: flex;
     flex-direction: column;
 }
 
-.information-section img{
+.information-section img {
     border: 2px solid #3882F6;
     border-radius: 10px;
     width: 100px;
@@ -104,7 +104,7 @@ header{
     margin: auto;
 }
 
-.information-section p{
+.information-section p {
     text-align: center;
     font-size: 10px;
     padding-left: 15px;
@@ -113,7 +113,7 @@ header{
     padding-bottom: 100px;
 }
 
-.quote{
+.quote {
     background-color: #E5E7EB;
     color: black;
     padding-right: 300px;
@@ -123,20 +123,20 @@ header{
     font-size: 26px;
 }
 
-.quote p{
+.quote p {
     font-size: 16px;
     font-weight: 800;
     text-align: right;
 }
 
-.call-to-action{
+.call-to-action {
     padding-right: 140px;
     padding-left: 140px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-.call-box{
+.call-box {
     background-color: #3882F6;
     border-radius: 10px;
     padding-right: 100px;
@@ -148,25 +148,25 @@ header{
     justify-content: space-between;
 }
 
-.call-text{
+.call-text {
     display: flex;
     flex-direction: column;
 
 }
 
-.call-text h1{
+.call-text h1 {
     font-size: 18px;
     margin-top: 0%;
     margin-bottom: 0%;
 }
 
-.call-text p{
+.call-text p {
     font-size: 13px;
     margin-top: 0%;
     margin-bottom: 0%;
 }
 
-.call-box .sign-up-button{
+.call-box .resume-button {
     border: 2px solid white;
     align-self: center;
 }
