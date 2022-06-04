@@ -28,6 +28,10 @@ header {
     color: inherit;
 }
 
+.header-links a:hover {
+    color: plum;
+}
+
 .hero {
     display: flex;
     background-color: #1F2937;
@@ -66,6 +70,11 @@ button {
     font-family:'Courier New', Courier, monospace;
 }
 
+button:hover {
+    background-color: plum;
+    cursor: pointer;
+}
+
 .hero-image {
     flex: 1;
 }
@@ -97,11 +106,16 @@ button {
 }
 
 .info-section img {
-    border: 2px solid #3882F6;
+    border: 3px solid #3882F6;
     border-radius: 10px;
     width: 100px;
     min-height: 100px;
     align-self: center;
+}
+
+.info-section img:hover {
+    border-color: plum;
+    cursor: pointer;
 }
 
 .info-section p {
@@ -110,10 +124,6 @@ button {
     padding-left: 15px;
     padding-right: 15px;
     width: 100px;
-}
-
-.info-section-title {
-    flex: 0 1 5%;
 }
 
 .info-section-description {
