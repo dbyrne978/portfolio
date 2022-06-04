@@ -60,6 +60,11 @@ header {
     margin-bottom: 10px;
 }
 
+.hero-image {
+    max-width: 140px;
+    height: 135px;
+}
+
 button {
     width: 100px;
     height: 25px;
